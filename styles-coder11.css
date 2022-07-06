@@ -1,19 +1,39 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif
+}
+
+.w3-bar,
+h1,
+button {
+    font-family: "Montserrat", sans-serif
+}
+
+.fa-anchor,
+.fa-coffee {
+    font-size: 200px
+}
+
 .imgBloque1 {
     box-sizing: content-box;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
-    
+
 }
 
 .imgBloque1 img {
-    /* display: flex; */ 
+    /* display: flex; */
     float: left;
     width: 100%;
 }
 
-.imgSecciones{
+.imgSecciones {
     width: 100%;
     height: "auto"
 }
-
